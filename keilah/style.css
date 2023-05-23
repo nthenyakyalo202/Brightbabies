@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    background: skyblue;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 ;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    background-color: white;
+    color: #333;
+  }
+  
+  nav .sign-in a {
+    background-color: white;
+    color: #333;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  nav .sign-in a:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  @media screen and (max-width: 768px) {
+    nav ul {
+      display: none;
+    }
+    
+    nav .sign-in {
+      display: block;
+      margin-left: auto;
+    }
+    
+    nav .sign-in a {
+      background-color: #333;
+      color: white;
+      border-radius: 5px;
+      padding: 10px 20px;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    nav .sign-in a:hover {
+      background-color: white;
+      color: #333;
+    }
+    
+    nav .nav-toggle-label {
+      cursor: pointer;
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: relative;
+    }
+    
+    nav .nav-toggle-label span {
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: white;
+      border-radius: 2px;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    nav .nav-toggle:checked + .nav-toggle-label span {
+      transform: rotate(45deg);
+      background: white;
+    }
+    
+    nav .nav-toggle:checked + .nav-toggle-label span:before {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: white;
+      top: -7px;
+      left: 0;
+      border-radius: 2px;
+      transform: rotate(90deg);
+    }
+    
+    nav .nav-toggle:checked + .nav-toggle-label span:after {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: white;
+      top: 7px;
+      left: 0;
+      border-radius: 2px;
+      transform: rotate(90deg);
+    }
+    
+    nav .nav-toggle:checked ~ ul {
+      display: flex;
+      flex-direction: column;
+      background-color: #333;
+      padding: 20px;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+    
+    nav .nav-toggle:checked ~ ul li {
+      margin: 10px 0;
+    }
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    background-color: white;
+    color: #333;
+  }
+  
+  nav .sign-in a {
+    background-color: white;
+    color: #333;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  nav .sign-in a:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  @media screen and (max-width: 768px) {
+    nav ul {
+      display: none;
+    }
+    
+    nav .sign-in {
+      display: block;
+      margin-left: auto;
+    }
+    
+    nav .sign-in a {
+      background-color: #333;
+      color: white;
+      border-radius: 5px;
+      padding: 10px 20px;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    nav .sign-in a:hover {
+      background-color: white;
+      color: #333;
+    }
+    
+    nav .nav-toggle-label {
+      cursor: pointer;
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: relative;
+    }
+    
+    nav .nav-toggle-label span {
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: white;
+      border-radius: 2px;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    nav .nav-toggle:checked + .nav-toggle-label span {
+      transform: rotate(45deg);
+      background: white;
+    }
+    
+    nav .nav-toggle:checked + .nav-toggle-label span:before {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: white;
+      top: -7px;
+      left: 0;
+      border-radius: 2px;
+      transform: rotate(90deg);
+    }
+    
+    nav .nav-toggle:checked + .nav-toggle-label span:after {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: white;
+      top: 7px;
+      left: 0;
+      border-radius: 2px;
+      transform: rotate(90deg);
+    }
+    
+    nav .nav-toggle:checked ~ ul {
+      display: flex;
+      flex-direction: column;
+      background-color: #333;
+      padding: 20px;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+    
+    nav .nav-toggle:checked ~ ul li {
+      margin: 10px 0;
+    }
+  }
+  .container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+  }
+
+  .expanded-image {
+    width: 100%;
+    height: 100;
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    .container {
+      padding: 30px;
+    }
+  }
+  
+  footer {
+    background-color: black;
+    padding: 30px 0;
+  }
+  
+  .footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-links a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #333;
+  }
+  
+  .social-media i {
+    font-size: 24px;
+  }
+  
+  .footer-copy {
+    margin-top: 20px;
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 30px;
+  }
+  
+  .photo-grid img {
+    width: 100%;
+    height: auto;
+  }
+  
