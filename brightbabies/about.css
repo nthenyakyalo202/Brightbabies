@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  
 }
 
 .container {
@@ -24,18 +25,20 @@ header h1 {
 
 /* Style the main content */
 main {
-  background-color: #fff;
-  padding: 20px;
+  background-image: url("image/image15.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
 }
 
 h2 {
-  color: #333;
+  color: black;
   font-size: 20px;
   margin-top: 30px;
 }
 
 p {
-  color: #666;
+  color: black;
   line-height: 1.5;
 }
 

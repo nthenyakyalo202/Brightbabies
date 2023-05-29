@@ -2,10 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url("image/image14.jpg");
   }
   
   header {
-    background-color: #4bb2d1;
+    background-image: url("image/image14.jpg");
     padding: 20px;
     text-align: center;
   }
@@ -45,7 +46,7 @@ body {
   .service .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: blue;
+    background-color: rgb(31, 31, 32);
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
