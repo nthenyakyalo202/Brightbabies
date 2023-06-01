@@ -1,0 +1,55 @@
+/* Set up basic styles for the page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the header */
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+header h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+/* Style the main content */
+main {
+  background-color: #fff;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+p {
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Style the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Add more styling rules as needed */
+
+   
+
+  
