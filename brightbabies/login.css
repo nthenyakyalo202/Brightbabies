@@ -59,3 +59,20 @@ span.psw {
         width: 100%;
     }
 }  
+
+.goback-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .goback-link:hover {
+    background-color: rgb(235, 135, 218);
+  }
+ 
+  .column-container {
+    display: flex;
+    flex-direction: column;
+  }

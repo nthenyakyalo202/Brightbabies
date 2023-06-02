@@ -12,11 +12,11 @@ body {
   padding: 20px;
 }
 
-/* Style the header */
+/*
 header {
-  background-color: #f2f2f2;
+  background-image: url("image/image24.jpg");
   padding: 20px;
-}
+}*/
 
 header h1 {
   color: #333;
@@ -24,11 +24,11 @@ header h1 {
 }
 
 /* Style the main content */
-main {
-  background-image: url("image/image15.jpg");
+body {
+  background-image: url("image/image24.jpg");
   background-size: cover;
   background-position: center;
-  height: 1000px;
+  height: 1100px;
 }
 
 h2 {
@@ -44,14 +44,28 @@ p {
 
 /* Style the footer */
 footer {
-  background-color: #f2f2f2;
   padding: 20px;
   text-align: center;
   font-size: 14px;
-  color: #666;
+  color: black;
 }
 
-/* Add more styling rules as needed */
+.goback-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+}
+
+.goback-link:hover {
+  background-color: rgb(235, 135, 202);
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+
 
    
 

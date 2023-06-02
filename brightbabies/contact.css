@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -43,5 +43,95 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
+  }*/
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  main {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .contact-info {
+    text-align: center;
+  }
+  
+  .contact-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact li {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    margin-top: 20px;
+  }
+  
+  .goback-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .goback-link:hover {
+    background-color: skyblue;
+  }
+ 
+  .column-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  body {
+    background-image: url("image/image22.jpg");
+    background-size: cover;
   }
   
