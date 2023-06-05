@@ -9,16 +9,22 @@ body {
   font-family: sans-serif;
 }
 
-.label {
-  font-size: 80px;
-  color: white;
-  /* Add any other desired styles */
-}
+/*.label {
+  font-size: 20px;
+  color: red;
+}*/
+
+
 .navbar {
   background-color: skyblue;
   overflow: hidden;
 }
-    
+  
+.label {
+  font-size: 14px;
+  font-weight: green;
+  margin-right: 10px;
+}
 .navbar a {
   float: right;
   display: block;
