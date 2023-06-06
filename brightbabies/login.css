@@ -7,7 +7,7 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color:white;
 }
 input[type=text], input[type=password] {
     width: 100%;
@@ -75,4 +75,9 @@ span.psw {
   .column-container {
     display: flex;
     flex-direction: column;
+  }
+
+  body{
+    background-color:#4CAF50;
+    background-size: cover;
   }
