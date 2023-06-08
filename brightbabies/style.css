@@ -183,7 +183,7 @@ body {
     margin-top: 10px; /* Adjust the margin as needed */
   }
   
-  footer {
+  /*footer {
     background-color: black;
     padding: 20px;
     text-align: center;
@@ -228,7 +228,40 @@ body {
 
   .contact li {
     color: white;
-  }
+  }*/
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+.column-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:white;
+}
+
+.column-content {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color:white;
+}
+
+.column-content li {
+    margin-bottom: 5px;
+}
 
 
   
